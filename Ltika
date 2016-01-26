@@ -1,0 +1,8 @@
+echo21 > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio21/direction
+echo 0 > /sys/clsss/gpio/gpio21/value
+echo 1 > /sys/clsss/gpio/gpio21/value
+echo 0 > /sys/clsss/gpio/gpio21/value
+echo 1 > /sys/clsss/gpio/gpio21/value
+echo 0 > /sys/clsss/gpio/gpio21/value
+echo 21 > /sys/class/gpio/unexport
